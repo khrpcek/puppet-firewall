@@ -1,0 +1,14 @@
+{
+  "name": "uv-firewall",
+  "version": "0.1.0",
+  "author": "Jim Neumann",
+  "summary": "Configures firewalld and iptables to UV standards",
+  "license": "Apache 2.0",
+  "source": "sxuvgit1.qg.com",
+  "issues_url": "fix it yourself.",
+  "project_page": "UV team member",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+
