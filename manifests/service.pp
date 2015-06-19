@@ -14,13 +14,13 @@ class firewall::service inherits firewall {
   case $::operatingsystemmajrelease {
     '7': {
       if $firewalld_enable {
-        service { 'iptables':
+        service { 'firewalld':
         ensure => 'running',
         enable => 'true',
       }
     }
       elsif $firewalld_enable == false {
-        service { 'iptables':
+        service { 'firewalld':
         ensure => 'stopped',
         enable => false,
         }

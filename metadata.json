@@ -1,6 +1,6 @@
 {
   "name": "uv-firewall",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Kevin Hrpcek",
   "summary": "Configures firewalld and iptables to UV standards",
   "license": "Apache 2.0",
